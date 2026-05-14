@@ -61,4 +61,20 @@ print(elemset)
 
 list2 = [0, 1, 2, 50, 100, 100, 100, 100, 2, 2, 2, 9, 10, 99]
 
+# metode
+
+catel = "Spot"
+catel.latra("cioara")
+catel.mananca("peste")
+catel.miroase("adrian")
+catel.musca("adrian")
+
+#obiect.actiune/functie/metoda (parametrii)
+
+lista5 = [7, 8, 100, 99]
+
+lista5.append(-50)
+print(lista5)
+
+
 
