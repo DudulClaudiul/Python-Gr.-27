@@ -63,11 +63,11 @@ list2 = [0, 1, 2, 50, 100, 100, 100, 100, 2, 2, 2, 9, 10, 99]
 
 # metode
 
-catel = "Spot"
-catel.latra("cioara")
-catel.mananca("peste")
-catel.miroase("adrian")
-catel.musca("adrian")
+#catel = "Spot"
+#catel.latra("cioara")
+#catel.mananca("peste")
+#catel.miroase("adrian")
+#catel.musca("adrian")
 
 #obiect.actiune/functie/metoda (parametrii)
 
