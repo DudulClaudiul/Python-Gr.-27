@@ -43,3 +43,5 @@ for s in var1 + var2:
 
     print(f"{formated_type} Mesaj: {message} Code: {code}")
 
+#refactorizare
+

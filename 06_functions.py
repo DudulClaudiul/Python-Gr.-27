@@ -116,3 +116,31 @@ for s in var2:
 # [ERROR] - se foloseste if
 # Mesaj: Value Error
 # Cod: 10
+
+#refactorizare
+
+
+
+def format_logs (param1):
+    chunks = []
+    for s in param1:
+        if s.split("-")[0] == "ERR":
+            chunks.append("[ERROR]")
+        elif s.split("-")[0] == "WRN":
+            chunks.append("[WARNING]")
+        elif s.split("-")[0] == "INF":
+            chunks.append("[INFO]")
+        else:
+            chunks.append(s.split("-")[0])
+
+        chunks.append(f"Mesaj: {s.split("-")[1]}")
+    # print("Mesaj: ", s.split("-") [1])
+    # s -> string :::: .split("-") -> list :::: [2] -> elem din lista dupa
+    # index :::: elem este string, deci s.split("-") [2] -> string ::::
+    # .split(":") -> list :::: acea_lista[1] -> al doilea element, care este
+    # numarul de cod ce ne intereseaza.
+        chunks.append(f"Cod: {s.split("-")[2].split(":")[1]}\n")
+    str_result = "\n".join(chunks)
+    return chunks
+
+format_logs(var2)
